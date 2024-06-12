@@ -1,0 +1,109 @@
+{
+  "interfaceRoles": [
+    {
+      "UseRole": "1",
+      "name": "admin",
+      "id": "891f"
+    },
+    {
+      "UseRole": "2",
+      "name": "user",
+      "id": "dc51"
+    }
+  ],
+  "users": [
+    {
+      "id": "3364",
+      "userRole": "1",
+      "name": "Juan Admin",
+      "email": "juan@gmail.com",
+      "password": "U2FsdGVkX1+6IRjg0DCNkHLqjs1OQ6HCylOU+2JV1hE="
+    },
+    {
+      "id": "6261",
+      "userRole": "2",
+      "name": "Maleja",
+      "email": "maleja@gmail.com",
+      "password": "U2FsdGVkX1//tgDZVejKR3m1EYKqA0Nysqb00bH3E9U="
+    }
+  ],
+  "flights": [
+    {
+      "id": "1",
+      "number": 1001,
+      "origin": "JFK",
+      "destination": "LAX",
+      "departure": "2024-06-10T08:00:00",
+      "arrival": "2024-06-10T11:00:00",
+      "capacity": 200
+    },
+    {
+      "id": "2",
+      "number": 1002,
+      "origin": "LAX",
+      "destination": "MIA",
+      "departure": "2024-06-11T09:00:00",
+      "arrival": "2024-06-11T14:00:00",
+      "capacity": 180
+    },
+    {
+      "id": "3",
+      "number": 1003,
+      "origin": "MIA",
+      "destination": "CDG",
+      "departure": "2024-06-12T16:00:00",
+      "arrival": "2024-06-13T06:00:00",
+      "capacity": 220
+    },
+    {
+      "id": "4",
+      "number": 1004,
+      "origin": "CDG",
+      "destination": "JFK",
+      "departure": "2024-06-14T10:00:00",
+      "arrival": "2024-06-14T13:00:00",
+      "capacity": 250
+    },
+    {
+      "id": "5",
+      "number": 1005,
+      "origin": "JFK",
+      "destination": "MIA",
+      "departure": "2024-06-15T07:00:00",
+      "arrival": "2024-06-15T09:30:00",
+      "capacity": 230
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "flightId": 1001,
+      "userId": "6261",
+      "bookingDate": "\n                                12 de junio de 2024, 2:06:3802:06:38\n                            "
+    },
+    {
+      "id": "2",
+      "flightId": 1002,
+      "userId": "6261",
+      "bookingDate": "\n                                12 de junio de 2024, 2:06:4502:06:45\n                            "
+    },
+    {
+      "id": "1",
+      "flightId": 1001,
+      "userId": "6261",
+      "bookingDate": "\n                                12 de junio de 2024, 2:21:4002:21:40\n                            "
+    },
+    {
+      "id": 1,
+      "flightId": 1001,
+      "userId": "6261",
+      "bookingDate": "\n                                12 de junio de 2024, 2:30:2902:30:29\n                            "
+    },
+    {
+      "id": 2,
+      "flightId": 1005,
+      "userId": "6261",
+      "bookingDate": "\n                                12 de junio de 2024, 2:30:4202:30:42\n                            "
+    }
+  ]
+}
