@@ -17,6 +17,6 @@ export const routes = {
 
     admin: [
         { path: '/home-admin', page: HomeAdmin },
-        { path: '/edit-flight', page: EditFlight }
+        { path: '/edit-flight', page: EditFlight },
     ],
 };
