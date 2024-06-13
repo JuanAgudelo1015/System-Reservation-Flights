@@ -1,8 +1,7 @@
 import { routes } from './routes';
 import { PrivateLayout } from './pages/private/Layout';
-import { LayoutAdmin } from './pages/private/Admin-Layout/admin.layout';
 import { PublicLayout } from './pages/public/Layout';
-
+import { LayoutAdmin } from './pages/private/Layout-admin';
 let currentPath = null;
 
 export function navigateTo(path) {
@@ -25,7 +24,7 @@ export function Router() {
 
     const isAuthenticated = localStorage.getItem('token') !== null;
     const userRole = localStorage.getItem('userRole');
-
+    
     // Si la ruta es publica, retornar la ruta publica
     if (publicRoute){
         const { $content, logic } = publicRoute.page();
@@ -62,10 +61,15 @@ export function Router() {
             navigateTo('/private-home')
             return;
         }
-        const { $content, logic } = adminRoute.page();
-        LayoutAdmin($content, logic);
+        (async () => {
+            const { $content, logic } = await adminRoute.page();
+            LayoutAdmin($content, logic);
+        })();
         return;
     }
+
+    
     // Si no se encuentra la ruta, not found
     navigateTo('/not-found');
 }
+window.addEventListener('popstate', Router);

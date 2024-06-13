@@ -25,27 +25,30 @@
       "name": "Maleja",
       "email": "maleja@gmail.com",
       "password": "U2FsdGVkX1//tgDZVejKR3m1EYKqA0Nysqb00bH3E9U="
+    },
+    {
+      "id": "b7bc",
+      "userRole": "2",
+      "name": "Maria oliva",
+      "email": "maria@gmail.com",
+      "password": "U2FsdGVkX1/bOUID6IQcpvgR3o4/e8b2VNhXxQnGdtc="
+    },
+    {
+      "id": "7390",
+      "userRole": "2",
+      "name": "Jose",
+      "email": "jose@gmail.com",
+      "password": "U2FsdGVkX181bIi3DtetCjkG+B6+IPlGyWJtY+xqz+g="
+    },
+    {
+      "id": "016d",
+      "userRole": "2",
+      "name": "Jose",
+      "email": "jose@gmail.com",
+      "password": "U2FsdGVkX1+RAzGCn4Rzee2jHmafhMNGMOQih0OXam4="
     }
   ],
   "flights": [
-    {
-      "id": "1",
-      "number": 1001,
-      "origin": "JFK",
-      "destination": "LAX",
-      "departure": "2024-06-10T08:00:00",
-      "arrival": "2024-06-10T11:00:00",
-      "capacity": 200
-    },
-    {
-      "id": "2",
-      "number": 1002,
-      "origin": "LAX",
-      "destination": "MIA",
-      "departure": "2024-06-11T09:00:00",
-      "arrival": "2024-06-11T14:00:00",
-      "capacity": 180
-    },
     {
       "id": "3",
       "number": 1003,
@@ -94,16 +97,27 @@
       "bookingDate": "\n                                12 de junio de 2024, 2:21:4002:21:40\n                            "
     },
     {
-      "id": 1,
+      "id": "1",
       "flightId": 1001,
       "userId": "6261",
       "bookingDate": "\n                                12 de junio de 2024, 2:30:2902:30:29\n                            "
     },
     {
-      "id": 2,
+      "id": "2",
       "flightId": 1005,
       "userId": "6261",
       "bookingDate": "\n                                12 de junio de 2024, 2:30:4202:30:42\n                            "
+    },
+    {
+      "id": 1,
+      "flightId": 1004,
+      "userId": "6261",
+      "bookingDate": "\n                                13 de junio de 2024, 3:03:5703:03:57\n                            "
+    },
+    {
+      "id": 1,
+      "userId": "7390",
+      "bookingDate": "\n                                13 de junio de 2024, 3:11:0603:11:06\n                            "
     }
   ]
 }

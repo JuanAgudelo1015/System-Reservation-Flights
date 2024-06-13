@@ -1,6 +1,6 @@
 export function PrivateHome() {
   const $content = /*html*/ `
-        <div>Hello world from private HOME</div>
+        <div></div>
     `;
   const logic = () => {};
   return {
